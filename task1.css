@@ -1,0 +1,52 @@
+* {
+    max-width: 700px;
+    margin: auto;
+}
+div {
+    border-radius: 5px;
+}
+.header {
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 1;
+    }
+.footer {
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    position: inherit;
+    }
+.left {
+    height: 750px;
+    width: 2px;
+    background-color: #000;
+    float: left;
+    position: inherit;
+}
+.right {
+    height: 750px;
+    width: 2px;
+    background-color: #000;
+    float: right;
+    position: inherit;
+}
+.main{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 75%;
+    height: 750px;
+}
+
+p,li {
+    font-family: 'Cormorant Garamond';
+}
+.head {
+    font-size: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
